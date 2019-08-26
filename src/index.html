@@ -1,31 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    
+</head>
+<body>
     <div class="bgImage">
-    
         <!-- Pantalla 1 -->
-        <div id="pantalla1">
-            <h1>Bienvenido a tu bitácora de sueños</h1>
-            <p>Aquí podrás ingresar tus sueños y protejerlos de los ojos ajenos con codigo unico para tí</p>
-            <button type="submit" id="start">Ingresar</button>
-        </div>
-    
         <div class="panta2y3">
+            <div id="pantalla1">
+                <h1>Bienvenido a tu bitácora de sueños</h1> <br>
+                <p>Aquí podrás ingresar tus sueños y protejerlos de los ojos ajenos con codigo unico para tí</p><br>
+                <br>
+                <button type="submit" id="start">Ingresar</button>
+            </div>
             <!-- Pantalla 2 -->
-        
             <div id="pantalla2">
                 <h2>Ingresa tu sueño</h2>
+                <br>
                 <button type="submit" id="newDream">Nuevo Sueño</button>
                 <br>
-                
             </div>
-        
             <!-- Pantalla 3 -->
             <div id="pantalla3">
                 <p>Emoción</p>
@@ -36,34 +32,28 @@
                     <option value="18">Confusión</option>
                     <option value="4">Paz</option>
                 </select>
-        
                 <p>Escribe tu sueño</p>
-                <input type="text" size="30" placeholder="" id="addDream" /> 
+                <input type="text" placeholder="" id="addDream" />
                 <br>
                 <button type="submit" id="saveDream">Guardar Sueño</button>
-            
             </div>
-        
+            <!-- Pantalla 4 -->
+            <div id="pantalla4">
+                <p>Este es tu sueño en codigo</p>
+                <input type="text" placeholder="Sueño en Codigo" id="dreamcode" value= />
+                <p>Si quieres leer tu sueño haz click en el botón </p>
+                <button type="submit" id="show">Mostrar</button>
+            </div>
+            <!-- Pantalla 5 -->
+            <div id="pantalla5">
+                <p>Este es el sueño ingresado</p>
+                <input type="text" placeholder="Sueño Decodificado" id="decodedDream" value="" /><br>
+                <button type="submit" id="exit">Salir</button>
+            </div>
         </div>
-        
-        <!-- Pantalla 4 -->
-        <div id="pantalla4">
-            <p>Este es tu sueño en codigo</p>
-            <input type="text" placeholder="Sueño en Codigo" size="30" id="dreamcode" value=""/>
-            <p>Si quieres leer tu sueño haz click en el botón </p>
-            <button type="submit" id="show">Mostrar</button>
-        </div>
-    
-        <!-- Pantalla 5 -->
-        <div id="pantalla5">
-            <p>Este es el sueño ingresado</p>
-            <input type="text" placeholder="Sueño Decodificado"  size="30" id="decodedDream" value=""/>
-            <button type="submit" id="exit">Salir</button>
-        </div>
-       
     </div>
-    
-        <script src="cipher.js"></script>
-        <script src="index.js"></script>
-    </body>
+    <script src="cipher.js"></script>
+    <script src="index.js"></script>
+</body>
+
 </html>

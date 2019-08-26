@@ -1,14 +1,12 @@
-/*Acá va tu código*/
 function load() {
     inicio();
     choise();
     addDream();
-    desencripted();
+    desencripted('', '');
     final();
 }
 
-
-//pantalla 1
+//pantalla 1 
 function inicio() {
     const startButton = document.getElementById('start');
     startButton.addEventListener('click', () => {
@@ -23,13 +21,10 @@ function choise() {
     const newDreamButton = document.getElementById('newDream');
     newDreamButton.addEventListener('click', () => {
         document.getElementById('pantalla3').style.display = 'block';
-
-
     })
 }
 
 //pantalla 3
-
 function addDream() {
     const saveDreamButton = document.getElementById('saveDream');
     saveDreamButton.addEventListener('click', () => {

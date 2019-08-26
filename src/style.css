@@ -1,1 +1,93 @@
 /* Acá va tu código */
+body {
+    background-image: url('https://wallpapercave.com/wp/yg0mngo.jpg');
+    overflow-y: hidden;
+    position: 0;
+}
+.bgImage { 
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: center; 
+    font-family: Helvetica;
+    display: flex;
+    height: 650px;
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    font-size: 15px;
+    height: 200px;
+    width: 600px;
+}
+
+button {
+    margin: 5px;
+    font-family: "Arial Black", Gadget, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(228, 238, 240);
+    border-radius: 4px;
+    background-color: rgb(165, 122, 204);
+    -webkit-text-stroke: 0.5px rgb(113, 150, 192);
+    background-position: right center;
+}
+
+h1 {
+    color: rgb(243, 222, 232);
+    -webkit-text-stroke: 1px black;
+    font-size: 45px;
+} 
+
+h2{
+    color: rgb(207, 238, 216);
+    -webkit-text-stroke: 0.3px black;
+    font-size: 40px;
+}
+
+p{
+    color: rgb(144, 236, 236);
+    -webkit-text-stroke: 0.3px white;
+    font-size: 25px;
+}
+
+#pantalla1 {
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    /* height: 650px; */
+    width: 100%;
+    /* margin: 20px auto; */
+}
+
+.panta2y3{
+    
+    text-align: center;
+    
+    display: inline-block;
+    height: 650px;
+    width: 100%;
+    
+}
+
+#pantalla2 {
+    display: none;
+    margin: 50px auto;
+}
+ 
+#pantalla3 {
+    display: none;
+    margin: 50px auto;
+}  
+#pantalla4 {
+    display: none;
+    margin: 50px auto;
+    width: 100%;
+    height: 100%;
+    
+}
+#pantalla5 {
+    display: none;
+    margin: 50px auto;
+    width: 100%;
+    height: 100%;
+}
